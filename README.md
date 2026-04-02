@@ -12,3 +12,28 @@ Ví dụ: [place holder]
 
 
 
+
+## App tạo mảnh ghép toán học
+
+Để tạo phiếu mảnh ghép tương tự hình mẫu, chạy app Streamlit:
+
+```bash
+streamlit run apps/puzzle_generator_app.py
+```
+
+Tính năng chính:
+- Chỉnh sửa 8 ô nội dung (7 ô xung quanh + 1 ô trung tâm).
+- Chỉnh nhãn cho các đường nối.
+- Tuỳ chỉnh màu từng ô.
+- Xuất ảnh PNG để in hoặc chèn vào tài liệu.
+
+
+### Web app (Flask)
+
+Nếu bạn muốn chạy bản web app thuần (không dùng Streamlit):
+
+```bash
+python apps/puzzle_web_app.py
+```
+
+Mở trình duyệt tại `http://127.0.0.1:5000`.
